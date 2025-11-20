@@ -51,8 +51,8 @@ a:visited{
     position: fixed; 
     top: 0; 
     left: 0; 
-    width: 100%; /* 確保橫跨整個頁面 */
-    z-index: 1000; /* 確保它在其他內容之上 */
+    width: 100%; 
+    z-index: 1000;
 }
 .header .logo img{
     
@@ -105,8 +105,8 @@ a:visited{
     font-size: 36px;
     margin-bottom: 300px;
     /* 更改點↓ */
-    /* 增加 .title 的上邊距，避開固定導覽列 */
-    margin-top: 200px; /* 給予足夠的空間，讓 h2 位於 banner-bg 頂部 */
+    /* 避開固定導覽列 */
+    margin-top: 200px; /* h2 位於 banner-bg 頂部 */
 
 }
 

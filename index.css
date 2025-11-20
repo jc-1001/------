@@ -246,7 +246,7 @@ section{
     font-size:40px;
     /* 更改點↓ */
     /* 增加上邊距，避開固定導覽列 */
-    margin-top: 200px; /* 給予足夠的空間，讓 h2 位於 banner-bg 頂部 */
+    margin-top: 200px; /*  h2 位於 banner-bg 頂部 */
 
     
 }
@@ -515,10 +515,10 @@ section{
 .reason .contain .reason-cardlist{
     display: flex;
     justify-content: center;
-    gap: 40px; /* 建議添加間距，讓卡片之間不擁擠 */
+    gap: 40px; 
 }
 
-/* 確保單個卡片有容器（如果您的 HTML 採用了上次的建議） */
+/* 單個卡片容器*/
 .reason-cardlist .reason-card {
     width: 300px; /* 設定單張卡片寬度 */
     text-align: center;
@@ -526,14 +526,14 @@ section{
 
 /* --- 圓圈樣式 (核心) --- */
 .circle{
-    background-color: white; /* 預設白色背景 */
+    background-color: white; /* 白色背景 */
     width: 271.77px;
     height: 271.77px;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* 讓內容水平垂直置中 */
+    justify-content: center; /* 水平垂直置中 */
     margin: auto;
     transition: background-color 0.3s ease; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
@@ -551,7 +551,7 @@ section{
 }
 
 .circle .title{
-    padding-top:10px ; /* 調整圖示和文字的距離 */
+    padding-top:10px ;
 }
 .circle .title h3{
     padding: 0;
@@ -560,7 +560,7 @@ section{
     transition: color 0.3s ease; 
 }
 
-/* [修正 3] 移除這個，它會導致錯誤的定位 */
+
 /* .reason .contain .reason-cardlist .circle .txt{
     position: relative;
     top: 100px;
@@ -883,9 +883,9 @@ section.update{
 .lawer-cardlist .lawer-card{
     position: relative;
     overflow: hidden;
-    object-fit: cover; /* 確保圖片覆蓋整個區域，不變形 */
+    object-fit: cover; /* 確保圖片覆蓋整個區域不變形 */
     display: block;
-    transition: filter 0.3s ease; /* 為圖片的過濾效果添加過渡 */
+    transition: filter 0.3s ease; /* 圖片的過濾效果添加過渡 */
     margin: 0 20px;
 }
 

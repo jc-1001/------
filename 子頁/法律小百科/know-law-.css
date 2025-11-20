@@ -106,8 +106,8 @@ a:visited{
     color: white;
     align-content: center;
     /* 更改點↓ */
-    /* 增加 .title 的上邊距，避開固定導覽列 */
-    margin-top: 200px; /* 給予足夠的空間，讓 h2 位於 banner-bg 頂部 */
+    /* 避開固定導覽列 */
+    margin-top: 200px; /*h2 位於 banner-bg 頂部 */
 }
 
 

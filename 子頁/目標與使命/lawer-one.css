@@ -47,8 +47,8 @@ a:visited{
     position: fixed; 
     top: 0; 
     left: 0; 
-    width: 100%; /* 確保橫跨整個頁面 */
-    z-index: 1000; /* 確保它在其他內容之上 */
+    width: 100%; 
+    z-index: 1000;
 }
 .header .logo img{
     
