@@ -3,15 +3,14 @@
     padding: 0;
     
 }
-
-h2{
-    font-size: 36px;
-    /* margin-left: 100px; */
-
+/* ========================== */
+/* 字型 */
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-h3{
-    font-size: 36px;
-}
+/* =============================== */
 
 body{
     background-image: url(./banner/background.png);
@@ -43,14 +42,6 @@ text-decoration:none;
 /* <a href="seanacnet.com" target="_blank">
    另開一個首頁
 </a> */
-a:link{
-    color: black;
-    text-decoration:none;
-}
-a:visited{
-    color: black;
-    text-decoration:none;
-}
 
 /* ================================== */
 /* 導覽列 */
@@ -103,9 +94,9 @@ a:visited{
     color: white;
 }
 /* =================== */
+/* [class*="button"]{} */
 
-
-
+/* ======================= */
 section{
     max-width: 1320px;
     margin: auto;
@@ -148,7 +139,7 @@ section{
     display: flex;
 }
 .txt-footer1{
-    margin-right:100px;
+    margin-right:30px;
 }
 
 .txt-footer1 p{
