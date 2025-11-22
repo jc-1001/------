@@ -159,7 +159,7 @@
 /* ============================ */
 /* 標題樣式 */
 .title h2::first-letter{
-    font-size: 80px;
+    font-size: 50px;
 }
 .title h2{
     border-left: 5px solid #FF9800;
@@ -172,22 +172,73 @@
 .about-us{
     margin-top: 500px;
     margin-bottom: 100px;
+    
 }
 .aboutus-con{
     display: flex;
     flex-direction: row;
-    margin-left: 150px;
-    letter-spacing: 2px;
-    line-height: 24px;
+    /* margin-left: 150px;
+     */
+    justify-content: center;
+    position: relative;
+}
+.ab-card{
+    display: flex;
+    flex-direction: column;
 
 }
-.rd1{
-    width: 500px;
-    padding: 10px;
+.ab-card img{
+    width: 100%;
 }
-.rd2{
-    width: 500px;
-    padding: 10px;
+.ab-pic{
+    overflow: hidden;
+    transition: scale 0.3s ease-in-out;
+}
+.ab-pic img{
+    transition: scale 0.3s ease-in-out;
+}
+.ab-txt{
+   display: flex;
+   flex-direction: column;
+   margin: 10px;
+}
+.txt-title{
+    font-size: 21px;
+    font-weight: 300px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.txt-sub{
+    font-size: 13px;
+    font-weight: 350px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    width: 300px;
+}
+.num{
+    font-family: "noto sans";
+    font-size: 40px;
+    text-align: end;
+    border-bottom:1px solid #444;
+}
+#ab-card1{
+    position: absolute;
+    top: -50px;
+    left: 100px;
+}
+#ab-card2{
+    position: absolute;
+    top: 100px;
+    left: 480px;
+}
+#ab-card3{
+    position: absolute;
+    top:-90px;
+    right: 80px;
+
+}
+.ab-card:hover .ab-pic img{
+    scale: 1.2;
 }
 /* ================================== */
 
@@ -290,7 +341,7 @@
 }
 
 section.reason{
-    
+    margin-top: 1000px;
     margin-bottom: 100px;
 }
 
@@ -306,7 +357,7 @@ section.reason{
 }
 .comment .contain .title .penlight{
     position: absolute;
-    top: 50px;
+    top: 20px;
     z-index: -1;
 }
 
@@ -315,7 +366,7 @@ section.reason{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 50%;
+    width: 60%;
 
 }
 .com-card{
@@ -331,7 +382,7 @@ section.reason{
     display: flex;
     flex-direction: row;
     justify-content: start;
-    width: 70%;
+    width: 75%;
 }
 .com-pic{
     padding: 10px;
@@ -353,6 +404,7 @@ section.reason{
     align-items: center;
     justify-content: center;
     letter-spacing: 2px;
+    font-size: 12px;
 }
 
 
